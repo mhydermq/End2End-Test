@@ -1,2 +1,2 @@
 # End2End-Test
-New users test project
+A sample test for beginner's
