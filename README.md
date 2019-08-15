@@ -1,2 +1,2 @@
 # End2End-Test
-A sample test for beginner's
+A demo test for beginner's
