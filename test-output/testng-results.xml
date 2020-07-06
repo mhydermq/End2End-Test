@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25255" started-at="2019-08-15T11:03:24Z" finished-at="2019-08-15T11:03:49Z">
+  <suite name="Default suite" duration-ms="26951" started-at="2020-07-06T05:18:49Z" finished-at="2020-07-06T05:19:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25255" started-at="2019-08-15T11:03:24Z" finished-at="2019-08-15T11:03:49Z">
+    <test name="Default test" duration-ms="26951" started-at="2020-07-06T05:18:49Z" finished-at="2020-07-06T05:19:16Z">
       <class name="com.hyder.tests.BookAFlightTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hyder.tests.BookAFlightTest@cc285f4]" name="setUp" is-config="true" duration-ms="12776" started-at="2019-08-15T11:03:24Z" finished-at="2019-08-15T11:03:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hyder.tests.BookAFlightTest@26653222]" name="setUp" is-config="true" duration-ms="11477" started-at="2020-07-06T05:18:49Z" finished-at="2020-07-06T05:19:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bookAFlight()[pri:0, instance:com.hyder.tests.BookAFlightTest@cc285f4]" name="bookAFlight" duration-ms="8736" started-at="2019-08-15T11:03:36Z" finished-at="2019-08-15T11:03:45Z">
+        <test-method status="PASS" signature="bookAFlight()[pri:0, instance:com.hyder.tests.BookAFlightTest@26653222]" name="bookAFlight" duration-ms="10731" started-at="2020-07-06T05:19:00Z" finished-at="2020-07-06T05:19:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookAFlight -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hyder.tests.BookAFlightTest@cc285f4]" name="tearDown" is-config="true" duration-ms="3716" started-at="2019-08-15T11:03:45Z" finished-at="2019-08-15T11:03:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hyder.tests.BookAFlightTest@26653222]" name="tearDown" is-config="true" duration-ms="4676" started-at="2020-07-06T05:19:11Z" finished-at="2020-07-06T05:19:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

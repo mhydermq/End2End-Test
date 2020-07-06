@@ -1,9 +1,9 @@
 package com.hyder.tests;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
@@ -18,21 +18,21 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
 	
-	public WebDriver driver;
+	static WebDriver driver;
 	
 	@BeforeClass
-	public void setUp() {
-		//path to the driver executeable
-		System.setProperty("webdriver.gecko.driver", 
-		"C:\\Users\\hyder\\Downloads\\webdrivers\\geckodriver-v0.23.0-win64\\geckodriver.exe");
+	public static  void setUp() {
+		WebDriverManager.firefoxdriver().setup();
 	   //Create a Chrome driver. All test classes use this.
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
 	}
+	
 	@AfterClass
-	public void tearDown() {
+	public static void tearDown() {
 		driver.quit();
 	}
 
 }
+
 
