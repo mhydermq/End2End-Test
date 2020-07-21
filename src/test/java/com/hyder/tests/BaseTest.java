@@ -23,7 +23,7 @@ public class BaseTest {
 	@BeforeClass
 	public static  void setUp() {
 		WebDriverManager.firefoxdriver().setup();
-	   //Create a Chrome driver. All test classes use this.
+	   //Create a firefox driver. All test classes use this.
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
 	}
