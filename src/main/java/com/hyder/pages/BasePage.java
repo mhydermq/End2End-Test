@@ -59,7 +59,6 @@ public class BasePage {
 	}
 
 	private String readText(String elementLocation) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 	
